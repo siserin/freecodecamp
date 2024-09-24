@@ -53,6 +53,10 @@ body {
     width: 50%;
     height: 45%;
     background: linear-gradient(45deg, gray, rgb(239,240, 228));
+    border-top-left-radius: 70%;
+    border-top-right-radius: 70%;
+    border-bottom-left-radius: 65%;
+    border-bottom-right-radius: 65%;
 }
 
 .ground {
