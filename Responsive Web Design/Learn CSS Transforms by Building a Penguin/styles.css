@@ -4,8 +4,6 @@ body {
   padding: 0;
   width: 100%;
   height: 100vh;  
-<<<<<<< HEAD
+  overflow: hidden;    
+
 }
-=======
-}
->>>>>>> 8d7a3fc5ba5912f3bdbdf3e867bc5ae598b87c79
