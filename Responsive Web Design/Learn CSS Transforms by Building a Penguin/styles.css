@@ -76,7 +76,7 @@ body {
 
 .penguin-body::before {
     content: "";
-
+    position: absolute;
 }
 .ground {
   width: 100vw;
