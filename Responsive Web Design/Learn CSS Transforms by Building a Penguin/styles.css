@@ -77,6 +77,9 @@ body {
     left: 5%;
 }
 
+.face.right {
+    right: 5%;
+}
 .penguin-body {
     width: 53%;
     height: 45%;
