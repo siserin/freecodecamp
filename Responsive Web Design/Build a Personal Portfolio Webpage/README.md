@@ -1,6 +1,6 @@
 # Build a Personal Portfolio Webpage
 
-**Objective:** Build an app that is functionally similar to [https://personal-portfolio.freecodecamp.rocks](https://personal-portfolio.freecodecamp.rocks). Do not copy this demo project.
+**Objective:** Build an app that is functionally similar to [https://personal-portfolio.freecodecamp.rocks](https://personal-portfolio.freecodecamp.rocks). **Do not copy this demo project**.
 
 ## User Stories:
 
