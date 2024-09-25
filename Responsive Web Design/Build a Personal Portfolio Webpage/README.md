@@ -4,10 +4,10 @@
 
 ## User Stories:
 
-- 1.- Your portfolio should have a welcome section with an `id` of `welcome-section`
-- 2.- The welcome section should have an `h1` element that contains text
-- 3.- Your portfolio should have a projects section with an 'id' of 'projects'
-- 4.- The projects section should contain at least one element with a 'class' of 'project-tile' to hold a project
+1. Your portfolio should have a welcome section with an `id` of `welcome-section`.
+2. The welcome section should have an `h1` element that contains text.
+3. Your portfolio should have a projects section with an 'id' of 'projects'.
+4. The projects section should contain at least one element with a 'class' of 'project-tile' to hold a project.
 
 
 The projects section should contain at least one link to a project
