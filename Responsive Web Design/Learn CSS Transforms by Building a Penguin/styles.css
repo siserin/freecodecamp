@@ -211,6 +211,18 @@ body {
     background: linear-gradient(90deg, var(--penguin-skin), rgb(209, 210, 199));
 }
 
+.arm.left {
+    top: 35%;
+    left: 5%;
+    
+}
+
+.arm.right {
+    top: 0%;
+    right: -5%;
+    
+}
+
 .ground {
   width: 100vw;
   height: 400px;
