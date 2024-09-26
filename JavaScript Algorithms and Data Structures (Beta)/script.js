@@ -12,15 +12,15 @@ console.log(developer);
 
 Step 26
 
-/*let cities = ["London", "New York", "Munbai"];
+let cities = ["London", "New York", "Munbai"];
 console.log(cities);
 cities[2] = "Mexico City";
 console.log(cities);
 let rows = ["Naomi", "Quincy", "CamperChan"];
 rows.push("freeCodeCamp");
-console.log(rows);*/
+console.log(rows);
 
-/*
+
 Step 27
 Another method essential for this project is the .pop() method. It removes the last element from an array and returns that element.
 
@@ -34,9 +34,10 @@ let popped;
 popped = rows.pop();
 console.log(popped);
 console.log(rows);
-*/
 
-/* Step 28
+
+Step 28
+
 You should have seen "freeCodeCamp" printed to the console. This is because .pop() returns the value that was removed from the array - and you pushed "freeCodeCamp" to the end of the array earlier.
 
 But what does .push() return? Assign your existing rows.push() to a new pushed variable, and log it.
@@ -45,10 +46,10 @@ rows.push("freeCodeCamp");
 let pushed;
 pushed = rows.push();
 console.log(pushed);
-*/
 
 
-/* Step 29
+
+Step 29
 
 Were you expecting to see 4 in the console? .push() returns the new length of the array, after adding the value you give it.
 
@@ -62,9 +63,9 @@ console.log(pushed);
 let popped = rows.pop();
 console.log(popped);
 console.log(rows);
-*/
 
-/*Step 30
+
+Step 30
 
 Change your rows declaration to be assigned an empty array again.
 
@@ -77,10 +78,8 @@ let rows = ["Naomi", "Quincy", "CamperChan"];
 
 character = "Hello";
 rows = [];
-*/
 
 
-/*
 Step 31
 
 Declaring a variable with the let keyword allows it to be reassigned. This means you could change character later to be a completely different value.
@@ -98,16 +97,31 @@ A const variable also cannot be uninitialized. This code would throw an error:
 const character = "Hello";
 const count = 8;
 const rows = [];
-*/
 
-/*
+
 Step 32
 
 You are now ready to start building your pyramid generator. Your character variable will serve as the building block for the pyramid.
 
 "Hello" might not work very well for that. Change the value of character to be the hash character "#".
-*/
+
 
 const character = "#";
 const count = 8;
 const rows = [];
+
+Step 33
+
+To generate a pyramid, you will need to create multiple rows. When you have to perform a task repeatedly until a condition is met, you will use a loop. There are many ways to write a loop.
+
+You are going to start with a basic for loop. for loops use the following syntax:
+
+Example Code
+for (iterator; condition; iteration) {
+  logic;
+}
+In the upcoming steps, you'll explore each component of a loop in detail. For now, construct a for loop that includes the terms "iterator", "condition", and "iteration" for the three components. Keep the loop body, the section within the curly braces {}, empty.
+*/
+
+for ("iterator"; "condition"; "iteration") {
+}
