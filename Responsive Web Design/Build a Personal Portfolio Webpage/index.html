@@ -1,17 +1,129 @@
-<!doctype html>
-<html>
-<head>
-<link rel="stylesheet" href="styles.css">
-<meta charset="utf-8">
-<title>Personal Portfolio</title>
-</head>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Portafolio personal</title>
+    <link rel="icon" type="image/x-icon" href="./assets/favicon.ico" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+  </head>
 
-<body>
-    <!-- START WELCOME SECTION -->
+  <body>
+
+    <!-- INICA BARRA DE NAVEGACIÓN -->
+    <nav id="navbar" class="nav">
+        <ul id="nav-list" class="nav-list">
+            <li><a href="#welcome-section">Principal</a></li>
+            <li><a href="#projects">Proyectos</a></li>
+            <li><a href="#contact">Contacto</a></li>
+        </ul> 
+    </nav>
+    <!-- TERMINA BARRA DE NAVEGACIÓN -->
+
+    <!-- INICIA SECCIÓN PRINICPAL -->
     <section id="welcome-section" class="welcome-section">
-        <h1>Hi</h1>
-        <p>a programer</p>
+        <h1>Programador</h1>
     </section>
-    <!-- END WELCOME SECTION -->
-</body>
+    <!-- TERMINA SECCIÓN PRINCIPAL -->
+
+    <!-- INICIA SECCIÓN PROYECTOS -->
+
+    <section id="projects" class="projects-section">
+
+        <h2 class="projects-section-header">Mis proyectos</h2>
+
+        <div class="projects-grid">
+            
+            <a href="https://codepen.io/freeCodeCamp/full/zNqgVx" target="_blank" class="project project-tile">
+
+                <img class="project-image" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute.jpg" alt="project">
+
+                    <p class="project-title">
+                        <span class="code">&lt;</span>
+                        Página de Recuerdo
+                        <span class="code">/&gt;</span>
+                    </p>
+            </a>
+
+            <a href="https://codepen.io/freeCodeCamp/full/qRZeGZ" target="_blank" class="project project-title">
+                
+                <img class="project-image" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/random-quote-machine.png" alt="project">
+                
+                <p class="project-title">
+                    <span class="code">&lt;</span>
+                    Citas aleatorias
+                    <span class="code">/&gt;</span>                
+                </p>            
+            </a>
+
+            <a href="https://codepen.io/freeCodeCamp/full/wgGVVX" target="_blank" class="project project-title">
+                
+                <img class="project-image" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/calc.png" alt="project">
+                
+                <p class="project-title">
+                    <span class="code">&lt;</span>
+                    Calculadora JavaScript
+                    <span class="code">/&gt;</span>                
+                </p>            
+            </a>
+
+            <a href="https://codepen.io/freeCodeCamp/full/mVEJag" target="_blank" class="project project-title">
+                
+                <img class="project-image" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/map.jpg" alt="project">
+                
+                <p class="project-title">
+                    <span class="code">&lt;</span>
+                    Mapas de todo el mundo
+                    <span class="code">/&gt;</span>                
+                </p>            
+            </a>
+
+            <a href="https://codepen.io/freeCodeCamp/full/wGqEga" target="_blank" class="project project-title">
+                
+                <img class="project-image" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/wiki.png" alt="project">
+                
+                <p class="project-title">
+                    <span class="code">&lt;</span>
+                    Visor de Wikipedia
+                    <span class="code">/&gt;</span>                
+                </p>            
+            </a>
+
+            <a href="https://codepen.io/freeCodeCamp/full/KzXQgy" target="_blank" class="project project-title">
+                
+                <img class="project-image" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tic-tac-toe.png" alt="project">
+                
+                <p class="project-title">
+                    <span class="code">&lt;</span>
+                    Juego de tres en raya
+                    <span class="code">/&gt;</span>                
+                </p>            
+            </a> 
+        </div>
+        <a href="https://codepen.io/FreeCodeCamp/" class="btn btn-show-all" target="_blank">            
+            Mostrar todo
+            
+        </a>
+    </section>
+    <!-- TERMINA SECCIÓN DE PROYECTOS -->
+
+    <!-- INICIA SECCIÓN CONTACTO-->
+     <section id="contact" class="contact-section">
+        <div class="contact-section-header">
+            <h2>Trabajemos juntos...</h2>
+            <p>¿Se te antoja un café?</p>
+        </div>
+
+        <div class="contact-links">
+            <a id="profile-link" href="https://github.com/freecodecamp" target="_blank" class="btn contact-details">
+                <i class="fab fa-github"></i>
+                GitHub
+            </a>
+        </div>
+     </section>
+    <!-- TERMINA SECCIÓN CONTACTO -->
+
+  </body>
 </html>
