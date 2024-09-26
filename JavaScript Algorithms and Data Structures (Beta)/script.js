@@ -1,3 +1,4 @@
+
 console.log("Let's build a pyramid using JavaScript basics:");
 console.log("    #    ");
 console.log("   ###   ");
@@ -7,6 +8,7 @@ console.log("#########");
 
 let developer = "Naomi";
 console.log(developer);
+
 
 /*Step 26
 
@@ -24,7 +26,7 @@ Another method essential for this project is the .pop() method. It removes the l
 
 When a method returns a value, you can think of it as giving the value back to you, making it available for use in other parts of your code.
 
-Create a new variable called popped and assign it the result of rows.pop(). Then, log popped to the console.*/
+Create a new variable called popped and assign it the result of rows.pop(). Then, log popped to the console.
 
 let rows = ["Naomi", "Quincy", "CamperChan"];
 rows.push("freeCodeCamp");
@@ -32,12 +34,49 @@ let popped;
 popped = rows.pop();
 console.log(popped);
 console.log(rows);
+*/
 
 /* Step 28
 You should have seen "freeCodeCamp" printed to the console. This is because .pop() returns the value that was removed from the array - and you pushed "freeCodeCamp" to the end of the array earlier.
 
-But what does .push() return? Assign your existing rows.push() to a new pushed variable, and log it.*/
+But what does .push() return? Assign your existing rows.push() to a new pushed variable, and log it.
 
 rows.push("freeCodeCamp");
 let pushed;
+pushed = rows.push();
 console.log(pushed);
+*/
+
+
+/* Step 29
+
+Were you expecting to see 4 in the console? .push() returns the new length of the array, after adding the value you give it.
+
+It is important to be aware of what values a method returns. Take some time to experiment with .push() and .pop(). When you are ready, remove all of your .push() and .pop() calls, and your console.log statements.
+
+let character = 'Hello';
+let count = 8;
+let rows = ["Naomi", "Quincy", "CamperChan"];
+let pushed = rows.push("freeCodeCamp");
+console.log(pushed);
+let popped = rows.pop();
+console.log(popped);
+console.log(rows);
+*/
+
+/*Step 30
+
+Change your rows declaration to be assigned an empty array again.
+
+Also, change your 'Hello' string to use double quotes again. Generally, it does not matter which of the two you prefer, but you will want to be consistent in that choice throughout your project.
+*/
+
+let character = 'Hello';
+let count = 8;
+let rows = ["Naomi", "Quincy", "CamperChan"];
+
+character = "Hello";
+rows = [];
+
+console.log(character);
+console.log(rows);
