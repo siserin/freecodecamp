@@ -4,3 +4,6 @@ console.log("   ###   ");
 console.log("  #####  ");
 console.log(" ####### ");
 console.log("#########");
+
+let developer = "Naomi";
+console.log(developer);
