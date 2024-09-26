@@ -8,7 +8,7 @@ console.log("#########");
 let developer = "Naomi";
 console.log(developer);
 
-/*Step 27
+/*Step 26
 
 /*let cities = ["London", "New York", "Munbai"];
 console.log(cities);
@@ -32,3 +32,12 @@ let popped;
 popped = rows.pop();
 console.log(popped);
 console.log(rows);
+
+/* Step 28
+You should have seen "freeCodeCamp" printed to the console. This is because .pop() returns the value that was removed from the array - and you pushed "freeCodeCamp" to the end of the array earlier.
+
+But what does .push() return? Assign your existing rows.push() to a new pushed variable, and log it.*/
+
+rows.push("freeCodeCamp");
+let pushed;
+console.log(pushed);
