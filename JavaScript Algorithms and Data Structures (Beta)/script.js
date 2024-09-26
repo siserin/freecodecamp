@@ -174,7 +174,7 @@ Your iteration statement will tell your loop what to do with the iterator after 
 When you reassign a variable, you can use the variable to reference the previous value before the reassignment. This allows you to do things like add three to an existing number. For example, bees = bees + 3; would increase the value of bees by three.
 
 Use that syntax to replace your "iteration" string with a reassignment statement that increases i by one.
-*/
+
 
 const character = "#";
 const count = 8;
@@ -182,4 +182,17 @@ const rows = [];
 
 for (let i = 0; i < count; i = i + 1) {
 
+}
+
+Step 37
+
+Your loop should now run eight times. Inside the body of the loop, print the value of the i iterator and see what happens.
+*/
+
+const character = "#";
+const count = 8;
+const rows = [];
+
+for (let i = 0; i < count; i = i + 1) {
+    console.log(i);
 }
