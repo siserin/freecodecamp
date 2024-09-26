@@ -22,6 +22,7 @@ console.log(rows);
 
 
 Step 27
+
 Another method essential for this project is the .pop() method. It removes the last element from an array and returns that element.
 
 When a method returns a value, you can think of it as giving the value back to you, making it available for use in other parts of your code.
@@ -121,7 +122,28 @@ for (iterator; condition; iteration) {
   logic;
 }
 In the upcoming steps, you'll explore each component of a loop in detail. For now, construct a for loop that includes the terms "iterator", "condition", and "iteration" for the three components. Keep the loop body, the section within the curly braces {}, empty.
-*/
+
 
 for ("iterator"; "condition"; "iteration") {
+}
+
+
+Step 34
+
+Your loop now needs a proper iterator. The iterator is a variable you can declare specifically in your for loop to control how the loop iterates or goes through your logic.
+
+It is a common convention to use i as your iterator variable in a loop. A for loop allows you to declare this in the parentheses (). For example, here is a for loop that declares an index variable and assigns it the value 100.
+
+Example Code
+for (let index = 100; "second"; "third") {
+
+}
+Replace the string "iterator" with a let declaration for the variable i. Assign it the value 0 to start. This will give the i variable the value 0 the first time your loop runs.*/
+
+const character = "#";
+const count = 8;
+const rows = [];
+
+for (let i = 0; "condition"; "iteration") {
+
 }
