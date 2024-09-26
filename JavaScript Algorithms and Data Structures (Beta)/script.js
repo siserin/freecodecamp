@@ -1,4 +1,4 @@
-
+/*
 console.log("Let's build a pyramid using JavaScript basics:");
 console.log("    #    ");
 console.log("   ###   ");
@@ -10,7 +10,7 @@ let developer = "Naomi";
 console.log(developer);
 
 
-/*Step 26
+Step 26
 
 /*let cities = ["London", "New York", "Munbai"];
 console.log(cities);
@@ -93,8 +93,21 @@ Example Code
 const firstName = "Naomi";
 firstName = "Jessica";
 A const variable also cannot be uninitialized. This code would throw an error:
-*/
+
 
 const character = "Hello";
+const count = 8;
+const rows = [];
+*/
+
+/*
+Step 32
+
+You are now ready to start building your pyramid generator. Your character variable will serve as the building block for the pyramid.
+
+"Hello" might not work very well for that. Change the value of character to be the hash character "#".
+*/
+
+const character = "#";
 const count = 8;
 const rows = [];
