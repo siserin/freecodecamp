@@ -911,7 +911,7 @@ Now your call variable has the value "Testing". But your function is no longer u
 Remove the name parameter from your function declaration, then remove your "CamperChan" string from the padRow call.
 
 Also, remove both console.log from the padRow function.
-*/
+
 
 const character = "#";
 const count = 8;
@@ -921,6 +921,37 @@ function padRow() {
   const test = "Testing";
   
   return test;
+  
+}
+const call = padRow();
+console.log(call);
+
+for (let i = 0; i < count; i = i + 1) {
+  rows.push(character.repeat(i + 1))
+}
+
+let result = ""
+
+for (const row of rows) {
+  result = result + "\n" + row;
+}
+
+console.log(result);
+
+
+
+Step 62
+Because your function was no longer using the parameter, changing the argument did not affect it.
+
+Go ahead and remove the test declaration and return statement from your padRow function, so the function is empty again.
+*/
+
+const character = "#";
+const count = 8;
+const rows = [];
+
+function padRow() {
+  
   
 }
 const call = padRow();
