@@ -261,7 +261,7 @@ for (const value of iterable) {
 Note that you can use const because the variable only exists for a single iteration, not during the entire loop.
 
 Create a for...of loop to iterate through your rows array, assigning each value to a row variable.
-*/
+
 
 const character = "#";
 const count = 8;
@@ -276,6 +276,31 @@ let result = ""
 
 for (const row of rows){
     
+}
+
+console.log(result);
+
+
+Step 42
+Remember in your previous loop that you used the addition operator + to increase the value of i by 1.
+
+You can do a similar thing with a string value, by appending a new string to an existing string. For example, hello = hello + " World"; would add the string " World" to the existing string stored in the hello variable. This is called concatenation.
+
+In your for...of loop, use the addition operator to concatenate the row value to the result value.
+*/
+
+const character = "#";
+const count = 8;
+const rows = [];
+
+for (let i = 0; i < count; i = i + 1) {
+  rows.push(i);
+}
+
+let result = ""
+
+for (const row of rows) {
+    result = result + row;
 }
 
 console.log(result);
