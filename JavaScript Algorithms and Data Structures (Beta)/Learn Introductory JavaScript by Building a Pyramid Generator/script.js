@@ -8,6 +8,7 @@ console.log("#########");
 
 let developer = "Naomi";
 console.log(developer);
+====================================================================================================
 
 
 Step 26
@@ -18,6 +19,7 @@ console.log(cities);
 let rows = ["Naomi", "Quincy", "CamperChan"];
 rows.push("freeCodeCamp");
 console.log(rows);
+====================================================================================================
 
 
 Step 27
@@ -33,6 +35,7 @@ let popped;
 popped = rows.pop();
 console.log(popped);
 console.log(rows);
+====================================================================================================
 
 
 Step 28
@@ -44,7 +47,7 @@ rows.push("freeCodeCamp");
 let pushed;
 pushed = rows.push();
 console.log(pushed);
-
+====================================================================================================
 
 
 Step 29
@@ -60,6 +63,7 @@ console.log(pushed);
 let popped = rows.pop();
 console.log(popped);
 console.log(rows);
+====================================================================================================
 
 
 Step 30
@@ -74,6 +78,7 @@ let rows = ["Naomi", "Quincy", "CamperChan"];
 
 character = "Hello";
 rows = [];
+====================================================================================================
 
 
 Step 31
@@ -92,6 +97,7 @@ A const variable also cannot be uninitialized. This code would throw an error:
 const character = "Hello";
 const count = 8;
 const rows = [];
+====================================================================================================
 
 
 Step 32
@@ -103,6 +109,8 @@ You are now ready to start building your pyramid generator. Your character varia
 const character = "#";
 const count = 8;
 const rows = [];
+====================================================================================================
+
 
 Step 33
 To generate a pyramid, you will need to create multiple rows. When you have to perform a task repeatedly until a condition is met, you will use a loop. There are many ways to write a loop.
@@ -118,6 +126,7 @@ In the upcoming steps, you'll explore each component of a loop in detail. For no
 
 for ("iterator"; "condition"; "iteration") {
 }
+====================================================================================================
 
 
 Step 34
@@ -138,6 +147,8 @@ const rows = [];
 for (let i = 0; "condition"; "iteration") {
 
 }
+====================================================================================================
+
 
 Step 35
 The condition of a for loop tells the loop how many times it should iterate. When the condition becomes false, the loop will stop.
@@ -156,6 +167,8 @@ const rows = [];
 for (let i = 0; i < count; "iteration") {
 
 }
+====================================================================================================
+
 
 Step 36
 Your iteration statement will tell your loop what to do with the iterator after each run.
@@ -172,6 +185,8 @@ const rows = [];
 for (let i = 0; i < count; i = i + 1) {
 
 }
+====================================================================================================
+
 
 Step 37
 Your loop should now run eight times. Inside the body of the loop, print the value of the i iterator and see what happens.
@@ -184,6 +199,8 @@ const rows = [];
 for (let i = 0; i < count; i = i + 1) {
     console.log(i);
 }
+====================================================================================================
+
 
 Step 38
 You should see the numbers zero through seven printed in your console, one per line. This will serve as the foundation for generating your pyramid.
@@ -198,6 +215,8 @@ const rows = [];
 for (let i = 0; i < count; i = i + 1) {
   rows.push(i);
 }
+====================================================================================================
+
 
 Step 39
 Unfortunately, now you cannot see what your loop is doing.
@@ -214,6 +233,7 @@ for (let i = 0; i < count; i = i + 1) {
 }
 
 let result = "";
+====================================================================================================
 
 
 Step 40
@@ -231,6 +251,7 @@ for (let i = 0; i < count; i = i + 1) {
 let result = ""
 
 console.log(result);
+====================================================================================================
 
 
 Step 41
@@ -263,6 +284,7 @@ for (const row of rows){
 }
 
 console.log(result);
+====================================================================================================
 
 
 Step 42
@@ -288,6 +310,7 @@ for (const row of rows) {
 }
 
 console.log(result);
+====================================================================================================
 
 
 Step 43
@@ -315,6 +338,7 @@ for (const row of rows) {
 }
 
 console.log(result);
+====================================================================================================
 
 
 Step 44
@@ -338,6 +362,7 @@ for (const row of rows) {
 }
 
 console.log(result);
+====================================================================================================
 
 
 Step 45
@@ -367,6 +392,7 @@ for (const row of rows) {
 }
 
 console.log(result);
+====================================================================================================
 
 
 Step 46
@@ -392,6 +418,7 @@ for (const row of rows) {
 }
 
 console.log(result);
+====================================================================================================
 
 
 Step 47
@@ -426,6 +453,7 @@ for (const row of rows) {
 }
 
 console.log(result);
+====================================================================================================
 
 
 Step 48
@@ -460,6 +488,7 @@ for (const row of rows) {
 }
 
 console.log(result);
+====================================================================================================
 
 
 Step 49
@@ -490,6 +519,7 @@ for (const row of rows) {
 }
 
 console.log(result);
+====================================================================================================
 
 
 Step 50
@@ -518,6 +548,7 @@ for (const row of rows) {
 }
 
 console.log(result);
+====================================================================================================
 
 
 Step 51
@@ -554,6 +585,7 @@ for (const row of rows) {
 }
 
 console.log(result);
+====================================================================================================
 
 
 Step 52
@@ -592,6 +624,7 @@ for (const row of rows) {
 }
 
 console.log(result);
+====================================================================================================
 
 
 Step 53
@@ -622,6 +655,7 @@ for (const row of rows) {
 }
 
 console.log(result);
+====================================================================================================
 
 
 Step 54
@@ -659,6 +693,7 @@ for (const row of rows) {
 }
 
 console.log(result);
+====================================================================================================
 
 
 Step 55
@@ -710,6 +745,7 @@ for (const row of rows) {
 }
 
 console.log(result);
+====================================================================================================
 
 
 Step 56
@@ -740,6 +776,7 @@ for (const row of rows) {
 }
 
 console.log(result);
+====================================================================================================
 
 
 Step 57
@@ -781,6 +818,7 @@ for (const row of rows) {
 }
 
 console.log(result);
+====================================================================================================
 
 
 Step 58
@@ -817,6 +855,7 @@ for (const row of rows) {
 }
 
 console.log(result);
+====================================================================================================
 
 
 Step 59
@@ -863,7 +902,7 @@ for (const row of rows) {
 }
 
 console.log(result);
-
+====================================================================================================
 
 
 Step 60
@@ -903,6 +942,7 @@ for (const row of rows) {
 }
 
 console.log(result);
+====================================================================================================
 
 
 Step 61
@@ -937,7 +977,7 @@ for (const row of rows) {
 }
 
 console.log(result);
-
+====================================================================================================
 
 
 Step 62
@@ -968,7 +1008,7 @@ for (const row of rows) {
 }
 
 console.log(result);
-
+====================================================================================================
 
 
 Step 63
@@ -995,7 +1035,7 @@ for (const row of rows) {
 }
 
 console.log(result);
-
+====================================================================================================
 
 
 Step 64
@@ -1030,7 +1070,7 @@ for (const row of rows) {
 }
 
 console.log(result);
-
+====================================================================================================
 
 
 Step 65
@@ -1065,7 +1105,7 @@ for (const row of rows) {
 }
 
 console.log(result);
-
+====================================================================================================
 
 
 Step 66
@@ -1098,7 +1138,7 @@ for (const row of rows) {
 }
 
 console.log(result);
-
+====================================================================================================
 
 
 Step 67
@@ -1131,7 +1171,7 @@ for (const row of rows) {
 }
 
 console.log(result);
-
+====================================================================================================
 
 
 Step 68
@@ -1165,6 +1205,7 @@ for (const row of rows) {
 }
 
 console.log(result);
+====================================================================================================
 
 
 Step 69
@@ -1200,7 +1241,7 @@ for (const row of rows) {
 }
 
 console.log(result);
-
+====================================================================================================
 
 
 Step 70
@@ -1239,7 +1280,7 @@ for (const row of rows) {
 }
 
 console.log(result);
-
+====================================================================================================
 
 
 Step 71
@@ -1272,7 +1313,7 @@ for (const row of rows) {
 }
 
 console.log(result);
-
+====================================================================================================
 
 
 Step 72
@@ -1303,7 +1344,7 @@ for (const row of rows) {
 }
 
 console.log(result);
-
+====================================================================================================
 
 
 Step 73
@@ -1331,7 +1372,7 @@ for (const row of rows) {
 }
 
 console.log(result);
-
+====================================================================================================
 
 
 Step 74
@@ -1359,7 +1400,7 @@ for (const row of rows) {
 }
 
 console.log(result);
-
+====================================================================================================
 
 
 Step 75
@@ -1391,7 +1432,7 @@ for (const row of rows) {
 }
 
 console.log(result);
-
+====================================================================================================
 
 
 Step 76
@@ -1422,9 +1463,9 @@ for (const row of rows) {
 }
 
 console.log(result);
+====================================================================================================
 
 
-/*
 // Step 77
 //JavaScript also has support for multi-line comments. A multi-line comment starts with /* and ends with */
 
@@ -1454,7 +1495,7 @@ for (const row of rows) {
 }
 
 console.log(result);
-
+====================================================================================================
 
 
 Step 78
@@ -1493,7 +1534,7 @@ for (const row of rows) {
 }
 
 console.log(result);
-
+====================================================================================================
 
 
 Step 79
@@ -1526,7 +1567,7 @@ for (const row of rows) {
 }
 
 console.log(result);
-
+====================================================================================================
 
 
 Step 80
@@ -1559,7 +1600,7 @@ for (const row of rows) {
 }
 
 console.log(result);
-
+====================================================================================================
 
 
 Step 81
@@ -1570,7 +1611,7 @@ A truthy value is a value that is considered true when evaluated as a boolean. M
 A falsy value is the opposite - a value considered false when evaluated as a boolean. JavaScript has a defined list of falsy values. Some of them include false, 0, "", null, undefined, and NaN.
 
 Try changing your if condition to an empty string "", which is a falsy value.
-
+====================================================================================================
 
 
 Step 82
@@ -1606,7 +1647,7 @@ function padRow(rowNumber, rowCount) {
 // TODO: use a different type of loop
 /*for (let i = 1; i <= count; i++) {
   rows.push(padRow(i, count));
-}*/
+}
 
 if ("") {
   console.log("Condition is true");
@@ -1621,4 +1662,56 @@ for (const row of rows) {
 }
 
 console.log(result);
+====================================================================================================
 
+
+Step 83
+Sometimes you will want to run different code when all of the if...else if conditions are false. You can do this by adding an else block.
+
+An else block will only evaluate if the conditions in the if and else if blocks are not met.
+
+Here the else block is added to the else if block.
+
+Example Code
+
+if (condition) {
+  // this code will run if condition is true
+} else if (condition2) {
+  // this code will run if the first condition is false
+} else {
+  // this code will run 
+  // if the first and second conditions are false
+}
+Add an else block to the else if block. Inside the else block, log the string "This is the else block" to the console.
+
+To see the results in the console, you can manually change the < in the else if statement to >. That will make the condition false and the else block will run.
+
+
+const character = "#";
+const count = 8;
+const rows = [];
+
+function padRow(rowNumber, rowCount) {
+  return " ".repeat(rowCount - rowNumber) + character.repeat(2 * rowNumber - 1) + " ".repeat(rowCount - rowNumber);
+}
+
+// TODO: use a different type of loop
+/*for (let i = 1; i <= count; i++) {
+  rows.push(padRow(i, count));
+}*/
+
+if ("") {
+  console.log("Condition is true");
+} else if (5 < 10) {
+  console.log("5 is less than 10");
+} else {
+  console.log("This is the else block");
+}
+
+let result = ""
+
+for (const row of rows) {
+  result = result + "\n" + row;
+}
+
+console.log(result);*/
