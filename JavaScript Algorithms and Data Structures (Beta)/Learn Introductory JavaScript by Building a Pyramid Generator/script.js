@@ -789,7 +789,7 @@ Variables can also be declared inside a function. These variables are considered
 To see this in action, use const to declare a test variable in your padRow function. Initialise it with the value "Testing".
 
 Then, below your function, try to log test to the console. You will see an error because it is not defined outside of the function's local scope. Remove that console.log to pass the tests and continue.
-*/
+
 
 const character = "#";
 const count = 8;
@@ -801,6 +801,50 @@ function padRow(name) {
 }
 
 
+
+const call = padRow("CamperChan");
+console.log(call);
+
+
+for (let i = 0; i < count; i = i + 1) {
+  rows.push(character.repeat(i + 1))
+}
+
+let result = ""
+
+for (const row of rows) {
+  result = result + "\n" + row;
+}
+
+console.log(result);
+
+
+Step 59
+Values returned out of a function are used by calling the function. You can use the function call directly as the value it returns, or capture the returned value in a variable. This way, you can use the value assigned to a locally scoped variable, outside the function it was created in.
+
+Example Code
+function getName() {
+  const name = "Camper cat";
+  return name;
+}
+
+console.log(getName()); // "Camper cat"
+
+const capturedReturnValue = getName();
+console.log(capturedReturnValue); // "Camper cat"
+
+console.log(name); // reference error
+To use your "Testing" value, return it out of the padRow function by updating your return statement to return only the test variable.
+*/
+
+const character = "#";
+const count = 8;
+const rows = [];
+
+function padRow(name) {
+  const test = "Testing";  
+  return test;
+}
 
 const call = padRow("CamperChan");
 console.log(call);
