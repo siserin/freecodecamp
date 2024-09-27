@@ -1370,6 +1370,36 @@ Your original loop went for i values from 0 to 7, because count is 8 and your co
 Your loop needs to be updated to run when i is 8, too. Looking at your logic, this means your loop should run when i is less than or equal to count. You can use the less than or equal to operator <= for this.
 
 Update your loop condition to run while i is less than or equal to count.
+
+
+const character = "#";
+const count = 8;
+const rows = [];
+
+function padRow(rowNumber, rowCount) {
+  return " ".repeat(rowCount - rowNumber) + character.repeat(2 * rowNumber - 1) + " ".repeat(rowCount - rowNumber);
+}
+
+for (let i = 1; i <= count; i++) {
+  rows.push(padRow(i, count));
+}
+
+let result = ""
+
+for (const row of rows) {
+  result = result + "\n" + row;
+}
+
+console.log(result);
+
+
+
+Step 76
+Comments can be helpful for explaining why your code takes a certain approach, or leaving to-do notes for your future self.
+
+In JavaScript, you can use // to leave a single-line comment in your code.
+
+Add a single-line comment above your function to remind yourself to change the code to a different kind of loop.
 */
 
 const character = "#";
@@ -1380,6 +1410,7 @@ function padRow(rowNumber, rowCount) {
   return " ".repeat(rowCount - rowNumber) + character.repeat(2 * rowNumber - 1) + " ".repeat(rowCount - rowNumber);
 }
 
+//Change the code to a different kind of loop.
 for (let i = 1; i <= count; i++) {
   rows.push(padRow(i, count));
 }
