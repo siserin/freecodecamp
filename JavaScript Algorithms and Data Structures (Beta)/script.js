@@ -316,7 +316,7 @@ You will need to add a new line to each row. However, pressing the return key to
 Example Code
 lineOne = lineOne + "\n" + lineTwo;
 Use a second addition operator to concatenate a new line between the existing result value and the added row value.
-*/
+
 
 const character = "#";
 const count = 8;
@@ -324,6 +324,29 @@ const rows = [];
 
 for (let i = 0; i < count; i = i + 1) {
   rows.push(i);
+}
+
+let result = ""
+
+for (const row of rows) {
+  result = result + "\n" + row;
+}
+
+console.log(result);
+
+
+Step 44
+Printing numbers won't result in a visually appealing pyramid. Now that you're outputting the formatted content of your rows array, it's time to update your original loop.
+
+Instead of pushing i to the array, push the value of your character variable.
+*/
+
+const character = "#";
+const count = 8;
+const rows = [];
+
+for (let i = 0; i < count; i = i + 1) {
+  rows.push(character);
 }
 
 let result = ""
