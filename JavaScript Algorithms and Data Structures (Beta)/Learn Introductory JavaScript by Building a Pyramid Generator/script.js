@@ -677,7 +677,7 @@ sayName("Camper", "Cat");
 This function would return "John Doe" regardless of the arguments passed to the parameters firstName, and lastName, so "John Doe" is considered a hard-coded value.
 
 Declare a sum variable and assign it the value of calling your addTwoNumbers function with 5 and 10 as the arguments. Log the sum variable to the console.
-*/
+
 
 const character = "#";
 const count = 8;
@@ -696,6 +696,36 @@ let sum = addTwoNumbers(5, 10);
 console.log(sum);
 
 const call = padRow("CamperChan");
+console.log(call);
+
+
+for (let i = 0; i < count; i = i + 1) {
+  rows.push(character.repeat(i + 1))
+}
+
+let result = ""
+
+for (const row of rows) {
+  result = result + "\n" + row;
+}
+
+console.log(result);
+
+
+Step 56
+With that quick review complete, you should remove your addTwoNumbers function, sum variable, and log statement.
+*/
+
+const character = "#";
+const count = 8;
+const rows = [];
+
+function padRow(name) {
+  return name;
+}
+
+
+const call = padRow();
 console.log(call);
 
 
