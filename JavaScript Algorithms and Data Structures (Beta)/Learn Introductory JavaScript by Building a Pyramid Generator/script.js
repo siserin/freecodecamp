@@ -874,7 +874,7 @@ After doing that, you will see that the string "This works!" does not display in
 Copy the console log and paste it above the return statement. Now, the string "This works!" should appear in the console.
 
 An important thing to know about the return keyword is that it does not just define a value to be returned from your function, it also stops the execution of your code inside a function or a block statement. This means any code after a return statement will not run.
-*/
+
 
 const character = "#";
 const count = 8;
@@ -891,6 +891,40 @@ function padRow(name) {
 const call = padRow("CamperChan");
 console.log(call);
 
+
+for (let i = 0; i < count; i = i + 1) {
+  rows.push(character.repeat(i + 1))
+}
+
+let result = ""
+
+for (const row of rows) {
+  result = result + "\n" + row;
+}
+
+console.log(result);
+
+
+Step 61
+Now your call variable has the value "Testing". But your function is no longer using the name parameter.
+
+Remove the name parameter from your function declaration, then remove your "CamperChan" string from the padRow call.
+
+Also, remove both console.log from the padRow function.
+*/
+
+const character = "#";
+const count = 8;
+const rows = [];
+
+function padRow() {
+  const test = "Testing";
+  
+  return test;
+  
+}
+const call = padRow();
+console.log(call);
 
 for (let i = 0; i < count; i = i + 1) {
   rows.push(character.repeat(i + 1))
