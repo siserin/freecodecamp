@@ -944,7 +944,7 @@ Step 62
 Because your function was no longer using the parameter, changing the argument did not affect it.
 
 Go ahead and remove the test declaration and return statement from your padRow function, so the function is empty again.
-*/
+
 
 const character = "#";
 const count = 8;
@@ -956,6 +956,33 @@ function padRow() {
 }
 const call = padRow();
 console.log(call);
+
+for (let i = 0; i < count; i = i + 1) {
+  rows.push(character.repeat(i + 1))
+}
+
+let result = ""
+
+for (const row of rows) {
+  result = result + "\n" + row;
+}
+
+console.log(result);
+
+
+
+Step 63
+As expected, your function now returns undefined again. Your call variable is not necessary any more, so remove the call declaration and the console.log for the call variable.
+*/
+
+const character = "#";
+const count = 8;
+const rows = [];
+
+function padRow() {
+
+}
+
 
 for (let i = 0; i < count; i = i + 1) {
   rows.push(character.repeat(i + 1))
