@@ -800,7 +800,7 @@ function padRow(name) {
   return character + name;
 }
 
-console.log(Testing);
+
 
 const call = padRow("CamperChan");
 console.log(call);
