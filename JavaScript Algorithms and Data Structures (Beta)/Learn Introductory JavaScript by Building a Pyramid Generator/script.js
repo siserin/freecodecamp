@@ -2740,18 +2740,18 @@ Uncomment only your first for loop. Leave the single line comment and the other 
 */
 
 
-const character = "#";
-const count = 8;
-const rows = [];
+//const character = "#";
+//const count = 8;
+//const rows = [];
+//
+//function padRow(rowNumber, rowCount) {
+//  return " ".repeat(rowCount - rowNumber) + character.repeat(2 * rowNumber - 1) + " ".//repeat(rowCount - rowNumber);
+//}
 
-function padRow(rowNumber, rowCount) {
-  return " ".repeat(rowCount - rowNumber) + character.repeat(2 * rowNumber - 1) + " ".repeat(rowCount - rowNumber);
-}
-
-// TODO: use a different type of loop
-for (let i = 1; i <= count; i++) {
-  rows.push(padRow(i, count));
-}
+//// TODO: use a different type of loop
+//for (let i = 1; i <= count; i++) {
+//  rows.push(padRow(i, count));
+//}
 
 ///*while (rows.length < count) {
 //  rows.push(padRow(rows.length + 1, count));
@@ -2778,6 +2778,7 @@ Your pyramid is no longer inverted. This is because you are adding new rows to t
 
 Update your loop body to add new rows to the beginning of the array.
 */
+
 
 const character = "#";
 const count = 8;
@@ -2808,3 +2809,4 @@ for (const row of rows) {
 
 console.log(result);
 ====================================================================================================
+
