@@ -128,7 +128,7 @@ function getAverage(scores) {
     } else {
         passing = false;
     }
-    return passing.toString();
+    return passing;
   }
   
   
