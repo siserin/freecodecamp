@@ -123,12 +123,12 @@ function getAverage(scores) {
   
   function hasPassingGrade(score) {
     let passing;
-    if (getGrade(score) !== "F") {
-        passing = true;
-    } else {
-        passing = false;
-    }
-    return passing;
+      if (getGrade(score) !== "F") {
+          passing = true;
+      } else {
+          passing = false;
+      }
+      return passing;
   }
   
   
